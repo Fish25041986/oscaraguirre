@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="card card_gallery_museo" style="width: 18rem;" *ngFor="let museo of museos">
+            <img class="card-img-top" [src]="'' + museo.imgMuseo"  alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title">{{museo.nombre}}</h5>
+            <p class="card-text">{{museo.descripcion}}</p>
+            <a routerLink="/artistas/{{museo.codigo}}" class="btn btn-primary">Artistas</a>
+            </div>
+        </div>
+    </div>
+</div>
+

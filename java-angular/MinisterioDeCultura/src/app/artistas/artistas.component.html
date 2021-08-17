@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row">
+        <div class="card card_gallery_museo" style="width: 18rem;" *ngFor="let artista of artistas">
+            <img class="card-img-top" [src]="'' + artista.imgArtista"  alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title">{{artista.nombre}} {{artista.apellido}}</h5>
+            <a routerLink="/artistas/{{artista.codigo}}" class="btn btn-primary">Obras</a>
+            </div>
+        </div>
+    </div>
+</div>

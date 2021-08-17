@@ -1,0 +1,14 @@
+co\com\ministerioDeCultura\data\MuseoDaoImpl.class
+co\com\ministerioDeCultura\web\JAXRSActivator.class
+co\com\ministerioDeCultura\web\CorsFilter.class
+co\com\ministerioDeCultura\Service\MuseoServiceRs.class
+co\com\ministerioDeCultura\data\MuseoDao.class
+co\com\ministerioDeCultura\domain\Pintura.class
+co\com\ministerioDeCultura\data\PinturaDaoImpl.class
+co\com\ministerioDeCultura\data\PinturaDao.class
+co\com\ministerioDeCultura\domain\Artista.class
+co\com\ministerioDeCultura\Service\ArtistaServiceRs.class
+co\com\ministerioDeCultura\data\ArtistaDaoImpl.class
+co\com\ministerioDeCultura\domain\Museo.class
+co\com\ministerioDeCultura\data\ArtistaDao.class
+co\com\ministerioDeCultura\Service\PinturaServiceRs.class

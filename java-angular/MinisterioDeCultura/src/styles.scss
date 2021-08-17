@@ -1,0 +1,17 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+ .card_gallery_museo{
+     margin-top: 4%;
+     margin-left: 4%;
+     margin-right: 2%;
+ }
+ .card-title {
+    font-weight: 700 !important;
+    margin: 5px !important;
+}
+.card-img-top{
+    margin-top: 5%;
+}
+.card-img, .card-img-top, .card-img-bottom {
+    height: 27%;
+}
